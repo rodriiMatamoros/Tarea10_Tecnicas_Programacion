@@ -1,28 +1,28 @@
 package org.example.Ejercicio2;
 
-class Operacion {
-    public static int sumar(int a, int b) throws org.example.DesbordaCapacidadExcepcion {
-        long resultado = (long) a + (long) b;
-        if (resultado < Integer.MIN_VALUE || resultado > Integer.MAX_VALUE) {
-            throw new org.example.DesbordaCapacidadExcepcion("El resultado desborda la capacidad de esta calculadora.");
+public class Operacion {
+    public static int suma(int a, int b) throws DesbordaCapacidadExcepcion {
+        long resultado = (long)a + b;
+        if(resultado > Integer.MAX_VALUE || resultado < Integer.MIN_VALUE) {
+            throw new DesbordaCapacidadExcepcion();
         }
-        return a + b;
+        return (int)resultado;
     }
 
-    public static int restar(int a, int b) throws org.example.DesbordaCapacidadExcepcion {
-        long resultado = (long) a - (long) b;
-        if (resultado < Integer.MIN_VALUE || resultado > Integer.MAX_VALUE) {
-            throw new org.example.DesbordaCapacidadExcepcion("El resultado desborda la capacidad de esta calculadora.");
+    public static int resta(int a, int b) throws DesbordaCapacidadExcepcion {
+        long resultado = (long)a - b;
+        if(resultado > Integer.MAX_VALUE || resultado < Integer.MIN_VALUE) {
+            throw new DesbordaCapacidadExcepcion();
         }
-        return a - b;
+        return (int)resultado;
     }
 
-    public static int multiplicar(int a, int b) throws org.example.DesbordaCapacidadExcepcion {
-        long resultado = (long) a * (long) b;
-        if (resultado < Integer.MIN_VALUE || resultado > Integer.MAX_VALUE) {
-            throw new org.example.DesbordaCapacidadExcepcion("El resultado desborda la capacidad de esta calculadora.");
+    public static int multiplicacion(int a, int b) throws DesbordaCapacidadExcepcion {
+        long resultado = (long)a * b;
+        if(resultado > Integer.MAX_VALUE || resultado < Integer.MIN_VALUE) {
+            throw new DesbordaCapacidadExcepcion();
         }
-        return a * b;
+        return (int)resultado;
     }
 }
 

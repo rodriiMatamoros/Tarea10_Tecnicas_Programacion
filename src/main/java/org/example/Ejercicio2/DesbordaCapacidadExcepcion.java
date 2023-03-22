@@ -1,7 +1,8 @@
 package org.example.Ejercicio2;
 
-class DesbordaCapacidadExcepcion extends Exception {
-    public DesbordaCapacidadExcepcion(String mensaje) {
-        super(mensaje);
+public class DesbordaCapacidadExcepcion extends Exception {
+    public DesbordaCapacidadExcepcion() {
+        super("El resultado desborda la capacidad de esta calculadora");
     }
 }
+
