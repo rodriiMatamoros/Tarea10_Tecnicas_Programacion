@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ejercicio1;
 import java.util.Scanner;
 
 public class raizCuadrada {
@@ -12,7 +12,8 @@ public class raizCuadrada {
     }
 
     // Función main para la entrada y visualización
-    public static void main(String[] args) {
+
+    public static void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introducir un valor: ");
         double numero = scanner.nextDouble();
