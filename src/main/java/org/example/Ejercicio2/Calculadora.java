@@ -3,7 +3,7 @@ package org.example.Ejercicio2;
 import java.util.Scanner;
 
 public class Calculadora {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner scanner = new Scanner(System.in);
 
         while(true) {

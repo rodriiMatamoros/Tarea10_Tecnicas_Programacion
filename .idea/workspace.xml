@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836dbd6f-a95c-49c0-91dc-6b9623ac650f" name="Changes" comment="commit Operacion">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/DesbordaCapacidadExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/DesbordaCapacidadExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Operacion.java" afterDir="false" />
+    <list default="true" id="836dbd6f-a95c-49c0-91dc-6b9623ac650f" name="Changes" comment="commit Calculadora">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679333490963</updated>
-      <workItem from="1679333491971" duration="8367000" />
+      <workItem from="1679333491971" duration="8699000" />
     </task>
     <task id="LOCAL-00001" summary="commit clases">
       <created>1679334729577</created>
@@ -136,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679520766923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit Calculadora">
+      <created>1679522514038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679522514038</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +162,7 @@
     <MESSAGE value="commit Main" />
     <MESSAGE value="commit DesbordaCapacidadExcepcion" />
     <MESSAGE value="commit Operacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Operacion" />
+    <MESSAGE value="commit Calculadora" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Calculadora" />
   </component>
 </project>
